@@ -33,7 +33,7 @@ The table below is **liberal but intentional**: sizes are round “classes,” n
 **Comfortable RAM (GB)** by model class × quantization:
 
 | Model class (params) | Examples (illustrative) | FP16 | FP8 | Q8 | Q5 | Q4 | Q2 |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| ---: | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | ~10B | Llama-class 8B, Gemma 9B, Qwen ~7–14B | 24 | 14 | 14 | 10 | 8 | 5 |
 | ~30B | Qwen/Gemma ~27–35B | 70 | 40 | 40 | 28 | 22 | 12 |
 | ~70B | Llama 70B, Qwen 72B, Kimi-Dev-72B | 160 | 95 | 95 | 65 | 48 | 28 |
