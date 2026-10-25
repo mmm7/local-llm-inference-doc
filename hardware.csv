@@ -1,0 +1,15 @@
+hardware,category,memory_gb,memory_bandwidth_gbs,fp32_tflops,fp16_tensor_tflops,price_usd,max_power_w,power_scope,source_url,notes
+NVIDIA RTX 3090,GPU,24,936,35.6,142,1500,350,board,https://www.nvidia.com/en-eu/geforce/graphics-cards/30-series/rtx-3090/,Ampere; FP16 Tensor is dense (no sparsity); discontinued; used price varies; used market estimate
+NVIDIA RTX 4090,GPU,24,1008,82.6,330.3,2270,450,board,,Ada Lovelace; FP16 Tensor is dense (no sparsity); used market estimate
+NVIDIA RTX 5090,GPU,32,1792,104.8,419,5390,575,board,https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/,Blackwell; FP16 Tensor is dense (no sparsity); launch MSRP 1999 USD; street price
+NVIDIA RTX PRO 6000 Blackwell Workstation,GPU,96,1792,125,503.8,16000,600,board,https://www.nvidia.com/en-gb/products/workstations/professional-desktop-gpus/rtx-pro-6000/,Blackwell; ECC memory; FP16 Tensor is dense (no sparsity); nvidia listed price
+NVIDIA RTX PRO 5000 Blackwell,GPU,48,1344,,294.8,8600,300,board,https://www.nvidia.com/en-gb/products/workstations/professional-desktop-gpus/rtx-pro-5000/,Blackwell; ECC memory; FP16 Tensor is dense (no sparsity); nvidia listed price
+NVIDIA L40S,GPU,48,864,91.6,362,,350,board,https://www.nvidia.com/en-in/data-center/l40s/,Ada Lovelace; ECC memory; FP16 Tensor is dense (no sparsity)
+NVIDIA H100 SXM,GPU,80,3350,67,989.5,34000,700,GPU,https://www.nvidia.com/en-eu/data-center/h100/,FP16 Tensor is dense (no sparsity); sparse peak is 1979; configurable up to 700 W
+NVIDIA H200 SXM,GPU,141,4800,67,989.5,44000,700,GPU,https://www.nvidia.com/en-eu/data-center/h200/,FP16 Tensor is dense (no sparsity); sparse peak is 1979; configurable up to 700 W
+NVIDIA B200 SXM,GPU,180,7700,75,2250,57500,1000,GPU,https://docs.nvidia.com/enterprise-reference-architectures/hgx-ai-factory-h100-h200-b200/latest/components.html,HGX; FP16 Tensor is dense (no sparsity); sparse peak is 4500; bandwidth ~7.7 TB/s
+Mac Studio M5 Max,Apple,128,614,,,5899,200,system,https://support.apple.com/en-euro/128107,Maximum memory configuration; unified memory; 2TB SSD; max power is Apple measured wall max (base M5 Max config; PSU rated 480 W continuous)
+Mac Studio M5 Ultra,Apple,256,1200,,,11300,385,system,https://support.apple.com/en-euro/128107,Maximum memory configuration; unified memory; 2TB SSD; max power is Apple measured wall max (top M5 Ultra config; PSU rated 480 W continuous)
+MacBook Pro M5 Max 16-inch,Apple,128,614,,,5000,140,system,https://support.apple.com/en-us/126319,Maximum memory configuration; unified memory; 2TB SSD; max power is 140 W USB-C adapter / MagSafe input limit
+Mac mini M6,Apple,32,170,,,1079,70,system,https://support.apple.com/en-mide/128108,Maximum memory configuration; unified memory; 1TB SSD; max power is Apple measured wall max (PSU rated 155 W continuous)
+Mac mini M5 Pro,Apple,64,307,,,2699,145,system,https://support.apple.com/en-mide/128108,Maximum memory configuration; unified memory; 1TB SSD; max power is Apple measured wall max (PSU rated 155 W continuous)
